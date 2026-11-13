@@ -1,18 +1,17 @@
-# Comet Sneakers: Macro & Competitive Strategy Analysis
+# Infra Compass: Strategic Decision-Support Assistant (Anthropic Client Case)
 
-A strategic management evaluation of **Comet**, an Indian direct-to-consumer (D2C) lifestyle sneaker brand, analyzing its macro environment, industry rivalry, and strategic positioning.
+A capstone project developed for **Foundations of AI in Business (FIIB)** designing **Infra Compass**—an evidence-grounded AI decision-support assistant built for Anthropic’s Chief Strategy Officer (CSO) and Enterprise Growth team.
 
-## Strategic Frameworks Applied
+## Business Problem & Context
+Anthropic operates in a high-velocity frontier AI market shaped by heavy cloud-compute dependence (AWS and Google Cloud), intense API price/model rivalry, and evolving hardware export controls and AI governance standards. Because infrastructure, finance, and market intelligence data sit scattered across teams, strategy leaders lacked a single, standardized view of cloud-compute exposure.
 
-### 1. Two-Lens Snapshot (Macro vs. Competitive Forces)
-* **PESTLE Analysis:** Assessed key macro drivers affecting Comet's business model, including import duties and GST on raw materials, inflation sensitivity on discretionary sneaker purchases, social media/influencer trend velocity, e-commerce acceleration, IP/trademark compliance, and rising demand for sustainable footwear.
-* **Porter’s Five Forces:** Evaluated industry attractiveness across high competitive rivalry (global incumbents like Nike, Adidas, Puma alongside Indian challengers like Red Tape and Gully Labs), low online entry barriers for new D2C entrants, high buyer switching power, high substitute availability, and moderate supplier bargaining power.
+## Structured 6-Stage Approach
+1. **Problem Framing:** Defined SCQ parameters, scope boundaries, and human decision checkpoints so the assistant supports—never replaces—executive judgment.
+2. **Evidence Base Construction:** Grounded the system in a **500-record Infrastructure Dataset** (compute utilization, GPU cluster allocation, hourly AWS vs. GCP cost rates, supplier concentration) alongside a **Capstone Evidence Register** (Stanford HAI compute reports, CNBC regulatory coverage, Tracxn competitor updates).
+3. **Prototype Convergence:** Built four independent prototypes across the team and converged on a unified architecture combining strong governance/scope controls (Prototype C) with strict source verification (Prototype A) and structured trade-off comparisons (Prototype D).
+4. **Adversarial Stress Testing:** Tested the assistant across **8 failure vectors**—including missing information, hallucination, human authority boundaries, out-of-scope tasks, privacy, conflicting data, instruction overrides, and overconfidence.
+5. **Pilot Testing & Iteration:** Conducted independent user pilot testing; identified one speculative competitor launch prediction (`GPT-5` date) and resolved it in **Instruction Set v2** with strict grounding rules and concise-mode formatting.
+6. **Risk & Control Framework:** Mapped 7 operational risks to concrete guardrails (approved-evidence restriction, dated evidence register, hard privacy boundaries, and executive escalation for capital/contract calls) and recommended a controlled **4-week CSO team pilot**.
 
-### 2. Signal-to-Strategy Card (SWOT & TOWS)
-* **Core Strengths & Weaknesses:** Paired Comet’s strong Indian D2C design identity, mid-premium product quality, and digital-first marketing against its limited offline retail footprint and lower mass-market brand awareness.
-* **Primary Market Signal:** Identified a **Short-Term Opportunity** driven by rapidly growing sneaker culture among Gen Z and rising consumer preference for Made-in-India streetwear brands (backed by RBI, Deloitte Consumer Trends, and Statista India footwear market data).
-* **TOWS Strategic Response (SO Strategy):** Leverage Comet's strong digital brand identity and premium product quality to become India's leading homegrown lifestyle sneaker brand by expanding **community-led marketing** and **selective offline retail experiences**.
-
-## Repository Files
-* [Two-Lens Snapshot: PESTLE & Porter's Five Forces (.docx)](./Comet%20Sneakers.docx)
-* [Signal-to-Strategy Visual Artefact (.pdf)](./Comet%20sneaker%20artefact.pdf)
+## Repository File
+* [Infra Compass Client Project Review & Pilot Testing Deck (.pdf)](./learning%20team%201%20anthropic%20chatbot%20ppt%20(1).pdf)
